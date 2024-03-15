@@ -1,3 +1,4 @@
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -6,6 +7,7 @@ import java.util.Random;
 
 public class RegistrationTests extends BaseTest {
     @Test
+    @DisplayName("Успешная авторизация")
     public void testSuccessRegister(){
         homePage.clickEnterAccountButton();
         loginPage.clickRegisterButton();
@@ -15,6 +17,7 @@ public class RegistrationTests extends BaseTest {
     }
 
     @Test
+    @DisplayName("Отображается сообщение при некорректном пароле менее 5 символов")
     public void testSmallPasswordMessage(){
         homePage.clickEnterAccountButton();
         loginPage.clickRegisterButton();

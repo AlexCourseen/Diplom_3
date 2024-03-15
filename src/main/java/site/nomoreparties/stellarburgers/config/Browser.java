@@ -5,7 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Browser {
-    public static WebDriver createWebDriver(String browser) {
+    public static WebDriver createWebDriver() {
+        String browser = System.getProperty("browser");
         switch (browser) {
             case "chrome":
                 WebDriverManager.chromedriver().setup();

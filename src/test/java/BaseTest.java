@@ -45,7 +45,7 @@ public class BaseTest extends Browser {
     }
     @Before
     public void setUp() {
-        driver = browser.createWebDriver("chrome");
+        driver = browser.createWebDriver();
         driver.get(BASE_URI);
         homePage = new HomePage(driver);
         loginPage = new LoginPage(driver);

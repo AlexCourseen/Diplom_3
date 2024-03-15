@@ -1,9 +1,11 @@
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class EnterAndExitProfilePageTests extends BaseTest{
 
     @Test
+    @DisplayName("Вход авторизованным юзером в личный кабинет")
     public void testEnterUserProfile() {
         regUser(newUser);
         homePage.clickProfileButton();
@@ -14,6 +16,7 @@ public class EnterAndExitProfilePageTests extends BaseTest{
     }
 
     @Test
+    @DisplayName("Выход авторизованным юзером из личного кабинета")
     public void testExitFromUserProfile() {
         regUser(newUser);
         homePage.clickProfileButton();

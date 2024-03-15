@@ -1,8 +1,10 @@
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class TransitionsFromProfileToHomePageTests extends BaseTest{
     @Test
+    @DisplayName("Выполняется переход на главную из личного кабинета по кнопке Конструктор")
     public void testTransitionsFromProfileToHomePageByConstructorButton() {
         regUser(newUser);
         homePage.clickProfileButton();
@@ -13,6 +15,7 @@ public class TransitionsFromProfileToHomePageTests extends BaseTest{
     }
 
     @Test
+    @DisplayName("Выполняется переход на главную из личного кабинета по Логотипу")
     public void testTransitionsFromProfileToHomePageByLogoButton() {
         regUser(newUser);
         homePage.clickProfileButton();

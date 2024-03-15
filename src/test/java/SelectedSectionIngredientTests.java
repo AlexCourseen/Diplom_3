@@ -1,3 +1,4 @@
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,6 +23,7 @@ public class SelectedSectionIngredientTests extends BaseTest {
     }
 
     @Test
+    @DisplayName("Выполняются переходы между разделами Соусы, Начинки, Булки")
     public void testSelectedSectionIngredient() {
         switch (pageName) {
             case "Sauces":
