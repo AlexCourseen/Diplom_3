@@ -1,0 +1,6 @@
+OpenLoginPageTests.class
+TransitionsFromProfileToHomePageTests.class
+EnterAndExitProfilePageTests.class
+SelectedSectionIngredientTests.class
+RegistrationTests.class
+BaseTest.class

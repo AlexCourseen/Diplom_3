@@ -1,0 +1,9 @@
+site\nomoreparties\stellarburgers\models\pages\BasePage.class
+site\nomoreparties\stellarburgers\models\pages\ForgotPasswordPage.class
+site\nomoreparties\stellarburgers\models\pages\HomePage.class
+site\nomoreparties\stellarburgers\config\Browser.class
+site\nomoreparties\stellarburgers\models\pages\LoginPage.class
+site\nomoreparties\stellarburgers\models\pages\RegisterPage.class
+site\nomoreparties\stellarburgers\config\Api.class
+site\nomoreparties\stellarburgers\models\pages\ProfilePage.class
+site\nomoreparties\stellarburgers\models\request\User.class
